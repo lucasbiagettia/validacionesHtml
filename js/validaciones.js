@@ -3,11 +3,20 @@ export function valida (input){
     if (validadores[tipoDeInput]){
         validadores [tipoDeInput] (input);
     }
+    if (input.validity.valid){
+        input.parentElement.classList.remove("input-container--invalid");
+    }else{
+
+        input.parentElement.classList.add("input-container--invalid");
+    }
+
 }
 
 const validadores = {
-    nacimiento: input => validarNacimiento(input),
+    nacimiento: (input) => validarNacimiento(input),
 };
+
+
 
 function validarNacimiento(input) {
     const fechaCliente = new Date(input.value);
