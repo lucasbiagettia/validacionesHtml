@@ -1,0 +1,6 @@
+# HTML Validations
+The scope of this repository is to understand how to make validations in the frontend using JavaScript and HTML
+
+## Technologies
+- JavaScript
+- HTMl
