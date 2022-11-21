@@ -33,7 +33,7 @@ const mensajesDeError = {
     },
     numero: {
         valueMissing: "Este campo no puede estar vacío",
-        patternMismatch: "El formato requeridoe s de 8 a 10 números",
+        patternMismatch: "El formato requerido es de 8 a 10 números",
     },
     password: {
         valueMissing: "El campo contraseña no puede estar vacío",
@@ -42,6 +42,18 @@ const mensajesDeError = {
     nacimiento: {
         valueMissing: "Este campo no puede estar vacío",
         customError: "Debes tener al menos 18 años de edad",
+    },
+    direccion: {
+        valueMissing: "Este campo no puede estar vacío",
+        patternMismatch: "La dirección debe contener entre 10 y 40 caracteres",
+    },
+    ciudad: {
+        valueMissing: "Este campo no puede estar vacío",
+        patternMismatch: "La ciudad debe contener entre 10 y 40 caracteres",
+    },
+    provincia: {
+        valueMissing: "Este campo no puede estar vacío",
+        patternMismatch: "El estado debe contener entre 10 y 40 caracteres",
     },
     
 };
