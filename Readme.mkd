@@ -4,3 +4,4 @@ The scope of this repository is to understand how to make validations in the fro
 ## Technologies
 - JavaScript
 - HTMl
+- CSS
